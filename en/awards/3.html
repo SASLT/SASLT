@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="../../CSS/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Award - SASLT</title>
+</head>
+
+<body>
+    <!-- START NAVTOP -->
+    <div class="top-nav bg-dark py-2">
+        <div class="container">
+            <div class="row justify-content-between">
+                <a href="mailto:saslt@saudisaslt.sa" class="col-6">
+                    <i class="fa-solid fa-envelope"></i>
+                    saslt@saudisaslt.sa
+                </a>
+                <a href="#" class="col-6 text-end">
+                    <i class="fa-solid fa-language"></i>
+                    <span>
+                        Language | عربي
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- END NAVTOP -->
+    <!-- START NAVBAR -->
+    <nav class="navbar bg-white navbar-expand-lg py-0 top-0">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../Images/logo.png" class="img-fluid" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../about-us/About_us.html">Who we are</a></li>
+                            <li><a class="dropdown-item" href="../about-us/history.html">History</a></li>
+                            <li><a class="dropdown-item" href="../about-us/Strategic_Plan.html">Strategic Plan</a></li>
+                            <li><a class="dropdown-item" href="../about-us/Board_of_doctors.html">Board of doctors</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../about-us/General_assembly.html">General assembly</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../about-us/Committees.html">Committees</a></li>
+                            <li><a class="dropdown-item" href="../about-us/Bylaws.html">Bylaws</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../events/Events.html">All Events</a></li>
+                            <li><a class="dropdown-item" href="../events/Conferences.html">Conferences</a></li>
+                            <li><a class="dropdown-item" href="../events/Workshops.html">Workshops</a></li>
+                            <li><a class="dropdown-item" href="../events/Journal_clubs.html">Journal clubs</a></li>
+                            <li><a class="dropdown-item" href="../events/Other_scientific_meetings.html">Other
+                                    scientific meetings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Publications
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../publications/Scientific_Articles.html">Scientific
+                                    Articles</a></li>
+                            <li><a class="dropdown-item" href="../publications/SASLT_Newsletter.html">SASLT
+                                    Newsletter</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" aria-current="page" href="#">Awards</a>
+                    </li>
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Gallery
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../gallery/photos.html">Photos
+                                </a></li>
+                            <li><a class="dropdown-item" href="../gallery/videos.html">Videos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="../contact.html" class="d-flex align-items-center gap-4" role="search">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    <button class="btn btn-outline-success contact-btn" type="submit">Contact us</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START HERO -->
+    <section class="hero" style="background-color: #EDF1F5;">
+        <div class="container">
+            <div class="content">
+                <h2>SASLT Excellence Awardee 2023</h2>
+                <p>
+                    <a href="../../index.html">Home</a> <i class="fa-solid fa-chevron-right"></i>
+                    <a href="awards.html">Awards</a> <i class="fa-solid fa-chevron-right"></i>
+                    <a class="active" href="3.html">SASLT Excellence Awardee 2023</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- END HERO -->
+
+    <!-- START Excellence -->
+    <section class="Excellence">
+        <div class="container">
+            <div class="row gap-4 gap-md-0">
+                <div class="col-12 col-md-6" data-aos="fade-down" data-aos-duration="1000">
+                    <img class="img-fluid w-100 rounded-4" src="../../Images/awards drs/3.png" alt="">
+                </div>
+                <div class="col-12 col-md-6" data-aos="fade-down" data-aos-duration="1000">
+                    <h2>Prof. Ayman Abdo</h2>
+                    <h4>Consultant Transplant Hepatologist</h4>
+                    <p>
+                        Dr. AlQutub is a Senior Consultant Transplant Hepatologist at King Fahad Medical City. He is
+                        appointed as the Director
+                        of Patient Safety & Risk Management Administration.
+
+                        He is an Assistant professor of Medicine at King Saud Bin Abdulaziz University for Health
+                        Sciences and Princess Noura
+                        University.
+
+                        Dr. AlQutub has been appointed as Director of Applied Clinical Research Administration, chairman
+                        of Medical Specialty
+                        Department, section head for the Gastroenterology and Hepatology, and Program Director for
+                        Residency Training in
+                        Internal Medicine at King Fahad Medical City.
+
+                        He is also an active board member of the Saudi Society for the Study of Liver Disease and
+                        Transplantation where he was
+                        also formerly appointed as the vice-president and the treasurer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Excellence -->
+
+
+    <!-- START FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 gy-5">
+                <div class="col">
+                    <h4>USEFUL LINKS</h4>
+                    <ul class="d-flex flex-wrap flex-sm-column justify-content-between">
+                        <li>
+                            <a href="../../index.html">
+                                Home
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../about-us/About_us.html">
+                                About us
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../about-us/history.html">
+                                History
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../about-us/Board_of_doctors.html">
+                                Board of Directors
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../events/Conferences.html">
+                                Conferences
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>USEFUL LINKS</h4>
+                    <ul class="d-flex flex-wrap flex-sm-column justify-content-between">
+                        <li>
+                            <a href="../publications/Scientific_Articles.html">
+                                Scientific Publications
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../publications/SASLT_Newsletter.html">
+                                Saslt Newsletter
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../gallery/photos.html">
+                                Photos
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../gallery/videos.html">
+                                Video
+                                <i class="fa-solid fa-angles-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Contacts</h4>
+                    <ul class="d-flex flex-wrap flex-sm-column justify-content-between">
+                        <li>
+                            <a href="https://maps.app.goo.gl/wJV77fkaABLCqZ5u9" target="_blank">
+                                <i class="fa-solid fa-location-dot fa-1x1 me-2"></i>
+                                6591
+                                Samhah St, <br class="d-none d-md-block">
+                                Al Safarat, Riyadh 12511, Saudi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:saslt@saudisaslt.org.sa">
+                                <i class="fa-solid fa-envelope fa-1x1 me-2"></i>
+                                saslt@saudisaslt.org.sa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-globe fa-1x1 me-2"></i>
+                                www.saudisaslt.org.sa
+                            </a>
+                        </li>
+                        <li class="sub">
+                            <input type="email" placeholder="Email">
+                            <div class="sub-btn">
+                                <img src="../../Images/mingcute_send-fill.png" alt="icon">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="nav-bottom">
+            <div class="image">
+                <img src="../../Images/logo.png" alt="logo">
+            </div>
+            <div>
+                <ul class="d-flex justify-content-between">
+                    <li>
+                        <a href="../contact.html">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="">Doctors</a>
+                    </li>
+                    <li>
+                        <a href="">Treatment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="Copyrigt text-center mt-5">Copyrigt 2024 Saslt.All Reserved</p>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- SCROLL TO TOP -->
+    <div class="scroll-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- SOA ANIMATION -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- MAIN JS -->
+    <script src="../../JS/main.js"></script>
+
+
+</body>
+
+</html>
