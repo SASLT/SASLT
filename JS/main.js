@@ -1,18 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const scrollToTopButton = document.querySelector(".navbar");
-
-    // Add an event listener for the scroll event
-    window.addEventListener("scroll", function () {
-        // Check if the pageYOffset is greater than or equal to 140px
-        if (window.pageYOffset >= 100) {
-            scrollToTopButton.classList.add("active");
-        } else {
-            scrollToTopButton.classList.remove("active");
-        }
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
     const scrollToTopButton = document.querySelector(".scroll-to-top");
 
     // Add an event listener for the scroll event

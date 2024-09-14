@@ -47,15 +47,9 @@ ul {
 .scroll-to-top.active {
     top: 90%;
 }
-/* START NAV */
-.top-nav a {
-    color: #fff;
-}
-.top-nav a i {
-    color: var(--prirmay-color);
-}
+
 .navbar {
-    top: 44px;
+    top: 0px;
     transition: 0.3s ease;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
@@ -63,10 +57,13 @@ ul {
     -o-transition: 0.3s ease;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 999;
-}
-.navbar.active {
-    top: 0;
     z-index: 999999999999;
+}
+.navbar .flag {
+    width: 32px;
+}
+.navbar .flag img {
+    width: 100%;
 }
 .navbar-nav .nav-link.active {
     color: #3d87ad;
@@ -74,23 +71,6 @@ ul {
 .dropdown-item.active,
 .dropdown-item:active {
     background-color: #3d87ad;
-}
-.top-nav a:last-child {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 170px;
-    height: 28px;
-    padding: 0 8px;
-    color: var(--main-color);
-    border: 1px solid var(--main-color);
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    color: var(--main-color);
-    margin-right: 1rem;
 }
 .dropdown-toggle::after {
     color: var(--main-color) !important;
@@ -1564,12 +1544,6 @@ footer .sub-btn {
     }
     .contact-us .form p {
         font-size: 14px;
-    }
-    .top-nav a {
-        font-size: 13px;
-    }
-    .top-nav .row {
-        align-items: center;
     }
     .hero .content p {
         flex-wrap: wrap;

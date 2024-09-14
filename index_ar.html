@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/main-ar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASLT</title>
+</head>
+
+<body>
+    <!-- START NAVBAR -->
+    <nav class="navbar bg-white navbar-expand-lg py-0 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index_ar.html">
+                <img src="Images/logo.png" class="img-fluid" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            من نكون
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="ar/about-us/About_us.html">من نحن</a></li>
+                            <li><a class="dropdown-item" href="ar/about-us/history.html">التاريخ</a></li>
+                            <li><a class="dropdown-item" href="ar/about-us/Strategic_Plan.html">الخطة الاستراتيجية</a>
+                            </li>
+                            <li><a class="dropdown-item" href="ar/about-us/Board_of_doctors.html">مجلس الأطباء</a>
+                            </li>
+                            <li><a class="dropdown-item" href="ar/about-us/General_assembly.html">الجمعية العامة</a>
+                            </li>
+                            <li><a class="dropdown-item" href="ar/about-us/Committees.html">اللجان</a></li>
+                            <li><a class="dropdown-item" href="ar/about-us/Bylaws.html">اللوائح</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link dropdown-toggle" href="ar/events/Events.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            الأحداث
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="ar/events/Events.html">جميع الأحداث</a></li>
+                            <li><a class="dropdown-item" href="ar/events/Conferences.html">المؤتمرات</a></li>
+                            <li><a class="dropdown-item" href="ar/events/Workshops.html">ورش العمل</a></li>
+                            <li><a class="dropdown-item" href="ar/events/Journal_clubs.html">نوادي المجلات</a></li>
+                            <li><a class="dropdown-item" href="ar/events/Other_scientific_meetings.html">لقاءات علمية
+                                    أخرى</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            المنشورات
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="ar/publications/Scientific_Articles.html">
+                                    المقالات العلمية
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="ar/publications/SASLT_Newsletter.html">
+                                    النشرة الإخبارية لـ SASLT</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a class="nav-link" aria-current="page" href="ar/awards/awards.html">الجوائز</a>
+                    </li>
+                    <li class="nav-item dropdown pe-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            الاستوديو
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="ar/gallery/photos.html">الصور
+                                </a></li>
+                            <li><a class="dropdown-item" href="ar/gallery/videos.html">الفيديوهات</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center gap-4">
+                    <a href="index.html" class="flag">
+                        <img src="Images/united-states.png" alt="flag">
+                    </a>
+                    <a href="ar/contact.html" class="d-flex align-items-center gap-4">
+                        <button class="btn btn-outline-success contact-btn" type="submit">تواصل معنا</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START SLIDER -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div id="saslt-word" class="saslt-word"></div>
+                <img src="Images/slider-1.png" alt="slider-1">
+                <div class="content">
+                    <h1 data-aos="fade-down" data-aos-duration="1500">الجمعية السعودية لدراسة الكبد</h1>
+                    <div>
+                        <h4 data-aos="fade-left" data-aos-duration="1500">الجمعية السعودية لدراسة الكبد</h4>
+                        <h4 data-aos="fade-left" data-aos-duration="1500">الأمراض وزراعة الأعضاء</h4>
+                    </div>
+                    <p data-aos="fade-right" data-aos-duration="1500">الجمعية السعودية لدراسة أمراض الكبد وزراعة الأعضاء
+                    </p>
+                    <p data-aos="fade-right" data-aos-duration="1500">جمعية دراسة أمراض الكبد وزراعة الأعضاء</p>
+                    <a href="ar/contact.html">
+                        <button data-aos="fade-up" data-aos-duration="1500">تواصل معنا الآن</button>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="saslt-word-2" class="saslt-word-2"></div>
+                <img src="Images/slider-2.png" alt="slider-1">
+                <div class="content">
+                    <h1 data-aos="fade-down" data-aos-duration="1500">الجمعية السعودية لدراسة الكبد</h1>
+                    <div>
+                        <h4 data-aos="fade-left" data-aos-duration="1500">الجمعية السعودية لدراسة الكبد</h4>
+                        <h4 data-aos="fade-left" data-aos-duration="1500">الأمراض وزراعة الأعضاء</h4>
+                    </div>
+                    <p data-aos="fade-right" data-aos-duration="1500">الجمعية السعودية لدراسة أمراض الكبد وزراعة الأعضاء
+                    </p>
+                    <p data-aos="fade-right" data-aos-duration="1500">جمعية دراسة أمراض الكبد وزراعة الأعضاء</p>
+                    <a href="ar/contact.html">
+                        <button data-aos="fade-up" data-aos-duration="1500">تواصل معنا الآن</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <!-- END SLIDERS -->
+
+
+    <!-- START WELCOME TO SASLT -->
+    <section class="welcome-to-saslt">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-md-6">
+                    <img src="Images/Welcome To SASLT.png" data-aos="fade-up" data-aos-duration="2000"
+                        class="img-fluid Welcome-To-SASLT-img" alt="Welcome To SASLT">
+                    <p data-aos="fade-up" data-aos-duration="2000" class="my-4">يسعدني، نيابة عن الجمعية السعودية لأمراض
+                        وزراعة الكبد، أن أرحب بكم جميعًا زوار موقعنا الإلكتروني الرسمي.</p>
+                    <p data-aos="fade-up" data-aos-duration="1500">
+                        تُعد أمراض الكبد من الأمراض الشائعة في المملكة العربية السعودية، كما هو الحال في العديد من الدول
+                        العربية الأخرى. ونولي
+                        اهتمامًا خاصًا لالتهاب الكبد الفيروسي المزمن، مع مضاعفاته المعتادة، إلا أننا نُدرك أيضًا وجود
+                        أمراض أخرى مثل التهاب
+                        الكبد الدهني غير الكحولي (NASH) التي تتطلب عناية طبية خاصة.
+                    </p>
+                    <p data-aos="fade-up" data-aos-duration="1000" class="mb-4">Liver Diseases are prevalent in the
+                        يُشار إلى الثمانينيات من القرن الماضي كبداية مسيرة المعرفة العلمية والبحوث السريرية حول أمراض
+                        الكبد في المملكة العربية
+                        السعودية، والتي شهدت العديد من الإنجازات الهامة على مر السنين.
+                    </p>
+                    <p data-aos="fade-up" data-aos-duration="1000" class="mb-4">
+                        نوجه هذه الرسالة إليكم جميعًا، كأعضاء في المجال الطبي، وكأفراد مهتمين بصحة المجتمع، كدعوة مفتوحة
+                        للمشاركة في مسؤولياتنا
+                        والتعاون معنا. ونُشجعكم على التواصل معنا بمقترحاتكم وارائكم القيمة، للمساهمة في تطوير برامجنا و
+                        أنشطتنا المختلفة، والتي
+                        نُقدمها من خلال الجمعية السعودية لأمراض وزراعة الكبد، كما هو موضح على هذا الموقع.
+                    </p>
+                    <p data-aos="fade-up" data-aos-duration="1000" class="mb-4">
+                        ختامًا:
+                        <br>
+                        نؤكد على التزامنا بتقديم أفضل رعاية صحية لمرضى الكبد في المملكة، ونثق بأن تعاوننا المشترك سيساهم
+                        في تحقيق المزيد من
+                        التقدم في هذا المجال المهم.
+
+                    </p>
+                    <p data-aos="fade-up" data-aos-duration="1000" class="mb-4">
+                        مع خالص التقدير،
+                        <br>
+                        د. فيصل أبا الخيل
+
+                    </p>
+                </div>
+                <div class="col-md-4 position-relative col-12" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="Images/Welcome-To-SASLT.png" class="img-fluid mw-100 dr-saslt" alt="Doctor">
+                    <div class="info">
+                        <h6>المدير التنفيذي لـ SASLT</h6>
+                        <span>د. فيصل أبا الخيل</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END WELCOME TO SASLT -->
+
+
+    <!-- START ABOUT US -->
+    <div>
+        <img class="w-100 d-block d-md-none" src="Images/banner-cut.png" alt="banner">
+    </div>
+    <section class="about-us">
+        <div class="container">
+            <div class="content">
+                <h4 data-aos="fade-up" data-aos-duration="1000">من نحن</h4>
+                <p data-aos="fade-up" data-aos-duration="1500">
+                    على مر العقود، سعى خبراء الكبد في المملكة العربية السعودية جاهدين لمشاركة خبراتهم وتقديم نتائج
+                    أبحاثهم السريرية على
+                    المستوى المحلي من خلال أنشطة جمعية الجهاز الهضمي السعودية، التي تأسست عام 1988. ومع اتساع نطاق هذا
+                    المجال وتطوره بشكل
+                    مطرد، برزت الحاجة الملحة لإنشاء جمعية متخصصة تُعنى بأمراض الكبد. ورغم أن هذه الفكرة راودت أذهان
+                    العديد من المختصين لفترة
+                    طويلة، إلا أنها لم تتحقق على أرض الواقع إلا مؤخرًا. وقد أثمرت الجهود المبذولة من خلال عقد العديد من
+                    الاجتماعات
+                    والمناقشات المثمرة بين نخبة من الأطباء المعنيين، إلى جانب استشارة خبراء آخرين للاستفادة من جميع
+                    الأفكار ذات الصلة، عن
+                    تأسيس "الجمعية السعودية لدراسة أمراض الكبد والزرع". وقد جاء تأسيس هذه الجمعية تحت مظلة المجلس
+                    السعودي للتخصصات الصحية
+                    بعد استيفاء جميع المتطلبات واللوائح المنظمة.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT US -->
+
+    <!-- START STATUS -->
+    <section class="status" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container">
+            <div class="row gy-5">
+                <div
+                    class="col-12 col-md-6 col-lg-4 d-flex align-items-center gap-2 justify-content-between justify-content-md-center">
+                    <img src="Images/icon 3.png" alt="icon 3" class="img-fluid">
+                    <div>
+                        <h2 id="count1" class="nums">300</h2>
+                        <span>أطباء خبراء</span>
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-md-6 col-lg-4 d-flex flex-row-reverse flex-md-row row-left align-items-center gap-2 justify-content-between justify-content-md-center">
+                    <img src="Images/icon 1.png" alt="icon 2" class="img-fluid">
+                    <div>
+                        <h2 id="count2" class="nums">26</h2>
+                        <span>المنشورات العلمية</span>
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-md-6 col-lg-4 d-flex align-items-center gap-2 justify-content-between justify-content-md-center">
+                    <img src="Images/icon 2.png" alt="icon 4" class="img-fluid">
+                    <div>
+                        <h2 id="count3" class="nums">35</h2>
+                        <span>المؤتمرات</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END STATUS -->
+
+    <!-- START TEAM -->
+    <section class="team">
+        <img src="Images/Board of Directors.png" data-aos="fade-up" data-aos-duration="1000" alt="Board of Directors"
+            class="img-fluid Board-of-Directors-img d-block mx-auto">
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100">
+                        <img src="Images/dr faisal.png" class="card-img-top" alt="doctor">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="Images/icon share.png" alt="icon share">
+                            </div>
+                            <div class="card-text">
+                                <h5 class="m-0 fw-bold">Dr. Faisal Aba Alkhail</h5>
+                                <span>SASLT President</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100">
+                        <img src="Images/dr hamad.png" class="card-img-top" alt="doctor">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="Images/icon share.png" alt="icon share">
+                            </div>
+                            <div class="card-text">
+                                <h5 class="m-0 fw-bold">Dr. Hamad M. Al Bahili</h5>
+                                <span>SASLT Vice President</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100">
+                        <img src="Images/dr nasser.png" class="card-img-top" alt="doctor">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="Images/icon share.png" alt="icon share">
+                            </div>
+                            <div class="card-text">
+                                <h5 class="m-0 fw-bold">Dr. Nasser Al Masri</h5>
+                                <span>Treasurer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100">
+                        <img src="Images/dr mohamed.png" class="card-img-top" alt="doctor">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="Images/icon share.png" alt="icon share">
+                            </div>
+                            <div class="card-text">
+                                <h5 class="m-0 fw-bold">Dr. Mohammed Al-Ghamd</h5>
+                                <span>SASLT board member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100">
+                        <img src="Images/dr adell.png" class="card-img-top" alt="doctor">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="Images/icon share.png" alt="icon share">
+                            </div>
+                            <div class="card-text">
+                                <h5 class="m-0 fw-bold">Dr. Adel Nazmi Alqutub</h5>
+                                <span>SASLT Board member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100">
+                        <img src="Images/dr abdullah.png" class="card-img-top" alt="doctor">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="Images/icon share.png" alt="icon share">
+                            </div>
+                            <div class="card-text">
+                                <h5 class="m-0 fw-bold">Abdullah A. Bin Khathlan</h5>
+                                <span>SASLT Board Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100">
+                        <img src="Images/dr abduallah 2.png" class="card-img-top" alt="doctor">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="Images/icon share.png" alt="icon share">
+                            </div>
+                            <div class="card-text">
+                                <h5 class="m-0 fw-bold">Dr. Abdullah Saeed Alghamdi</h5>
+                                <span>SASLT Board Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- END TEAM -->
+
+
+    <!-- START LIVERS -->
+    <section class="liver">
+        <div class="container">
+            <img src="Images/كلمة events.png" data-aos="fade-up" data-aos-duration="1000"
+                class="word-event img-fluid mx-auto d-block" alt="event">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                <div class="col mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100 rounded-5 p-1">
+                        <img src="Images/event 1.png" class="card-img-top" alt="liver">
+                    </div>
+                </div>
+                <div class="col mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100 rounded-5 p-1">
+                        <img src="Images/event 2.png" class="card-img-top" alt="liver">
+                    </div>
+                </div>
+                <div class="col mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100 rounded-5 p-1">
+                        <img src="Images/event 3.png" class="card-img-top" alt="liver">
+                    </div>
+                </div>
+                <div class="col mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card h-100 rounded-5 p-1">
+                        <img src="Images/event 4.png" class="card-img-top" alt="liver">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END LIVERS -->
+
+
+    <!-- START CTA -->
+    <section class="cta" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <img src="Images/latest-award.png" class="img-fluid latest-award" alt="latest-award">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center">
+                <div class="col text-center">
+                    <img src="Images/doc 3.png" alt="doc">
+                    <h5>Prof. Ayman Abdo</h5>
+                    <span>SASLT Excellence Awardee 2023</span>
+                </div>
+                <div class="col text-center">
+                    <img src="Images/doc 2.png" alt="doc">
+                    <h5>Prof. Waleed AlHamoudi</h5>
+                    <span>SASLT Excellence Awardee 2023</span>
+                </div>
+                <div class="col text-center">
+                    <img src="Images/doc 1.png" alt="doc">
+                    <h5>Dr. Adel AlQutub</h5>
+                    <span>SASLT Excellence Awardee 2023</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CTA -->
+
+    <!-- START FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 gy-5">
+                <div class="col">
+                    <h4>روابط مفيدة</h4>
+                    <ul class="d-flex flex-wrap flex-sm-column justify-content-between">
+                        <li>
+                            <a href="index.html">
+                                <i class="fa-solid fa-angles-right"></i>
+                                الرئيسية
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ar/about-us/history.html">
+                                <i class="fa-solid fa-angles-right"></i>
+                                من نكون
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ar/about-us/history.html">
+                                <i class="fa-solid fa-angles-right"></i>
+                                التاريخ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ar/about-us/Board_of_doctors.html">
+                                <i class="fa-solid fa-angles-right"></i>
+                                مجلس إدارة
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ar/events/Conferences.html">
+                                <i class="fa-solid fa-angles-right"></i>
+                                المؤتمرات
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>روابط مفيدة</h4>
+                    <ul class="d-flex flex-wrap flex-sm-column justify-content-between">
+                        <li>
+                            <a href="ar/publications/Scientific_Articles.html">
+                                <i class="fa-solid fa-angles-right"></i>
+                                المنشورات العلمية
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ar/publications/SASLT_Newsletter.html">
+                                <i class="fa-solid fa-angles-right"></i>
+                                نشرة ساسلت
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ar/gallery/photos.html">
+                                <i class="fa-solid fa-angles-right"></i>
+                                الصور
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ar/gallery/videos.html">
+                                <i class="fa-solid fa-angles-right"></i>
+                                مقاطع الفيديو
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>جهات الاتصال</h4>
+                    <ul class="d-flex flex-wrap flex-sm-column justify-content-between">
+                        <li>
+                            <a href="https://maps.app.goo.gl/wJV77fkaABLCqZ5u9" target="_blank">
+                                <i class="fa-solid fa-location-dot fa-1x1 ms-2"></i>
+                                6591
+                                Samhah St, <br class="d-none d-md-block">
+                                Al Safarat, Riyadh 12511, Saudi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:saslt@saudisaslt.org.sa">
+                                <i class="fa-solid fa-envelope fa-1x1 ms-2"></i>
+                                saslt@saudisaslt.org.sa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-globe fa-1x1 ms-2"></i>
+                                www.saudisaslt.org.sa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+9669488433133">
+                                <i class="fa-solid fa-phone fa-1x1 ms-2"></i>
+                                +966 9488 433 133
+                            </a>
+                        </li>
+                        <li class="sub">
+                            <input type="email" placeholder="Email">
+                            <div class="sub-btn">
+                                <img src="Images/mingcute_send-fill.png" alt="icon">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="Copyright text-center mt-5">جميع الحقوق محفوظة لشركة Salt 2024</p>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- SCROLL TO TOP -->
+    <div class="scroll-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- SOA ANIMATION -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- MAIN JS -->
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>

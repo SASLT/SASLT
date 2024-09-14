@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+* {
+    font-family: "Tajawal", sans-serif;
+}
+.navbar-nav .dropdown-menu {
+    text-align: right;
+}
+.welcome-to-saslt .info {
+    right: -70px;
+    left: initial;
+    padding: 22px 30px 22px 0px;
+    text-align: right;
+}
+@media (max-width: 768px) {
+    .about-us .content {
+        text-align: right;
+        right: 0;
+        left: initial;
+    }
+}
+footer input{
+    text-align: left;
+}
