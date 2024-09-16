@@ -22,3 +22,7 @@
 footer input{
     text-align: left;
 }
+.events .box-main .btn-box i{
+    margin-left: 0;
+    margin-right: 7px;
+}
