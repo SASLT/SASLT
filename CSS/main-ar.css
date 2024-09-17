@@ -19,10 +19,25 @@
         left: initial;
     }
 }
-footer input{
+footer input {
     text-align: left;
 }
-.events .box-main .btn-box i{
+.events .box-main .btn-box i {
     margin-left: 0;
     margin-right: 7px;
+}
+.strategic_plan ul li::before {
+    left: initial;
+    right: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.strategic_plan ul li {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.content-history .info {
+    right: initial;
+    left: -50px;
 }
