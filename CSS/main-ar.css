@@ -7,10 +7,11 @@
     text-align: right;
 }
 .welcome-to-saslt .info {
-    right: -70px;
-    left: initial;
     padding: 22px 30px 22px 0px;
     text-align: right;
+}
+.welcome-to-saslt .info h6 {
+    font-size: 14px;
 }
 @media (max-width: 768px) {
     .about-us .content {
