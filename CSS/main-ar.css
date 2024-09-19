@@ -50,3 +50,13 @@ footer input {
         transform: translateX(-50%);
     }
 }
+
+.hero-history {
+    background: url(../Images/ar-imgs/3.png) no-repeat top left / cover;
+}
+.hero-strategic_plan {
+    background: url(../Images/ar-imgs/4.png) no-repeat top left / cover;
+}
+.hero-Board-of-doctors {
+    background: url(../Images/ar-imgs/2.png) no-repeat top left / cover;
+}
