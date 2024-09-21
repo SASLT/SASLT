@@ -36,6 +36,19 @@ footer input {
     left: -50px;
 }
 
+.hero-history {
+    background: url(../Images/ar-imgs/3.png) no-repeat top left / cover;
+}
+.hero-strategic_plan {
+    background: url(../Images/ar-imgs/4.png) no-repeat top left / cover;
+}
+.hero-Board-of-doctors {
+    background: url(../Images/ar-imgs/2.png) no-repeat top left / cover;
+}
+.liver .word-event {
+    width: 400px;
+}
+
 @media (max-width: 768px) {
     .about-us .content {
         text-align: right;
@@ -49,14 +62,7 @@ footer input {
         left: 50%;
         transform: translateX(-50%);
     }
-}
-
-.hero-history {
-    background: url(../Images/ar-imgs/3.png) no-repeat top left / cover;
-}
-.hero-strategic_plan {
-    background: url(../Images/ar-imgs/4.png) no-repeat top left / cover;
-}
-.hero-Board-of-doctors {
-    background: url(../Images/ar-imgs/2.png) no-repeat top left / cover;
+    .liver .word-event {
+        width: 320px;
+    }
 }
